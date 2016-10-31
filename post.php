@@ -1,3 +1,4 @@
+<?php include 'menu.php'; ?>
 <h1>Testataan post-metodia</h1>
 <form method="post" action="post.php">
 <label>Etunimi</label>
@@ -8,13 +9,11 @@
 <br>
 <input type="submit" name="nappi" value="Lähetä">
 </form>
-
 <?php
 if (isset($_POST['nappi'])) {
-
-
 $enimi=$_POST['en'];
 $snimi=$_POST['sn'];
 echo "Terve $enimi $snimi";
 }
 ?>
+<?php include 'footer.php'; ?>

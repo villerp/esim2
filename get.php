@@ -1,3 +1,4 @@
+<?php include 'menu.php'; ?>
 <h1>Testataan get-metodia</h1>
 <form method="get" action="get.php">
 <label>Etunimi</label>
@@ -8,7 +9,6 @@
 <br>
 <input type="submit" name="nappi" value="Lähetä">
 </form>
-
 <?php
 if (isset($_GET['nappi'])) {
 $enimi=$_GET['en'];
@@ -16,3 +16,4 @@ $snimi=$_GET['sn'];
 echo "Terve $enimi $snimi";
 }
 ?>
+<?php include 'footer.php'; ?>
