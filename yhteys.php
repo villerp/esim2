@@ -9,6 +9,4 @@ try {
 	echo "Tietokantaan ei saatu yhteyttä, ota yhteys ylläpitoon";
 	$testi=false;
 }
-
-
 ?>
