@@ -14,6 +14,7 @@
 <li><a href="get.php">Get lomake</a></li>
 <li><a href="array.php">Array</a></li>
 <li><a href="asiakas.php">Asiakkaat</a></li>
+<li><a href="logout.php">Kirjaudu ulos</a></li>
 </ul>
 </div>
 <div id="sisalto">
